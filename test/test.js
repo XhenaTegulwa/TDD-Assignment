@@ -11,6 +11,6 @@ describe('Testing the return values of the multiply function', () => {
     });
 
     it('Testing the return value of multiplying 3, 3', () => {
-        assert.equal(multiply(3, 3), 4, 'The result should be 9');
+        assert.equal(multiply(3, 3), 9, 'The result should be 9');
     });
 });
